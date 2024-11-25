@@ -1,7 +1,7 @@
 
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
-import Sidenav from './Sidenav';
+
 import Home from './Pages/Home';
 import Teacher from './Pages/Teacher';
 import Student from './Pages/Student';
@@ -10,7 +10,7 @@ import Student from './Pages/Student';
 function App() {
   return (
     <div className="App">
-   <Sidenav />
+
    <BrowserRouter>
     <Routes>
       <Route path='/' exact element={<Home />}></Route>

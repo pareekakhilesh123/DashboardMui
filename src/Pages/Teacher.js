@@ -1,8 +1,12 @@
 import React from 'react'
+import Sidenav from '../Sidenav'
 
 function Teacher() {
   return (
-    <div>Teacher</div>
+    <div>
+      <Sidenav />
+      Hello teacher
+    </div>
   )
 }
 
